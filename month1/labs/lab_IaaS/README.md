@@ -26,7 +26,7 @@ For this lab we are going to deploy something simular to the business tier of th
 - **Resource Group:** Provide a unique name like **<initial>-ata-rg
 - **Region:** EastUS
 
-![RG Basic Tab](images/rg-basics.png)  
+![RG Basic Tab](images/rg-basics.PNG)  
 
 4. Click the **Next: Review + Create** button
 5. Click the **Create** button
