@@ -1,4 +1,4 @@
-# Azure Networking Lab
+# Azure IaaS Lab
 
 ## Prerequisites
 
@@ -49,7 +49,7 @@ For this lab we are going to deploy something simular to the business tier of th
 - **Username:** Enter your user name. Ex: ata-user
 - **Password:** Enter your password
 
-![VM Basics Tab](images/vm-basics.png)
+![VM Basics Tab](images/vm-basics.PNG)
 
 4. Click the **Next: Disks** button
 5. Leave everything as default and click the **Next: Networking** button
@@ -59,7 +59,7 @@ For this lab we are going to deploy something simular to the business tier of th
 - **Network interface:** Leave this as the default
 - **Use a load balancer:** Change this option to Yes to create a new load balancer
 - Leave the default options to create a Azure Load Balancer
-![VM Networking Tab](images/vm-networking.png)
+![VM Networking Tab](images/vm-networking.PNG)
 
 7. CLick the **Next: Scaling** button
 8. Fill out **Scaling** tab as follows:  
@@ -68,7 +68,7 @@ For this lab we are going to deploy something simular to the business tier of th
 - **Scaling policy:** Manual
 - **Scal-in policy:** Default
 
-![VM Scaling Tab](images/vm-scaling.png)
+![VM Scaling Tab](images/vm-scaling.PNG)
 
 7. Click the **Next: Management** button
 8. Inside the **Management** tab:
@@ -78,7 +78,7 @@ For this lab we are going to deploy something simular to the business tier of th
 - **Automatic OS upgrades:** On
 - Leave everything else as default
 
-![VM Management Tab](images/vm-management.png)
+![VM Management Tab](images/vm-management.PNG)
 
 9. Click the **Next: Health** button
 10. Fillout the **Health** tab as follows:  
@@ -86,7 +86,7 @@ For this lab we are going to deploy something simular to the business tier of th
 - **Monitor applicaton health:** Enabled
 - Leave everything else as default
 
-![VM Health Tab](images/vm-health.png)  
+![VM Health Tab](images/vm-health.PNG)  
 
 11. Click on the **Next: Advanced** button
 11. Leave everything as default and click on the **Next: Tags** button
@@ -99,7 +99,7 @@ We will utilize the PowerShell DSC extension to deploy a simple website to our s
 
 1. In the portal click on the **Cloud Shell** icon and make sure your in PowerShell mode
 
-![Cloud Shell](images/powershell-portal.png)
+![Cloud Shell](images/powershell-portal.PNG)
 
 2. Inside the cloud shell run the following command to download the needed script:
 
@@ -115,11 +115,11 @@ We will utilize the PowerShell DSC extension to deploy a simple website to our s
 
 6. Click on the Virtual machine scale set you create previously and click on the "Extension" tab. Verify that the DSC extention has been deployed.
 
-![VM Extention](images/vm-extension.png)
+![VM Extention](images/vm-extension.PNG)
 
 7. Clcik on the **Intances** tab. Once the DSC script finished the health will go to healthy. If it doesn't show healthy wait 5 minutes and refresh the view.
 
-![VM Instances](images/vm-instances.png)
+![VM Instances](images/vm-instances.PNG)
 
 8. Once the Instances show as healthy go to the **Overview** tab and take note of the Public IP
 
