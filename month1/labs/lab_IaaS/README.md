@@ -136,4 +136,8 @@ We are currently allowing the Load Balancer to other VNets in Azure to connect t
 
 ![VM Networking](images/NSG_Rule.PNG)
 
-9. It will take up to 5 minutes for the NSG rule to take affect. After being patient open an additional tab and go to http://publicIP
+**Note:** It will take up to 5 minutes for the NSG rule to take affect. 
+
+3. After being patient open the **Overview** tab and take note of the Pubic IP
+
+4. Open an additional tab and go to http://publicIP
