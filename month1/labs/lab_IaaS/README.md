@@ -121,6 +121,19 @@ We will utilize the PowerShell DSC extension to deploy a simple website to our s
 
 ![VM Instances](images/vm-instances.PNG)
 
-8. Once the Instances show as healthy go to the **Overview** tab and take note of the Public IP
+## Step 4: Allow External Port 80
 
-9. Open an additional tab and go to http://publicIP
+We are currently allowing the Load Balancer to other VNets in Azure to connect to our Scale Set. In order for us to connect ot the website we will allow port 80 from any location.
+
+1. While still on the Scale Set Resource blade go to the **Networking** tab.
+
+2. Click on add **Inbound Port Rule** and fill in the following:
+
+- **Destination Port Ranges:** 80
+- **Protocol:** TCP
+- **Name:** Allow 80
+- Leave the rest of the option as default and click on **Add**
+
+![VM Networking](images/NSG_Rule.PNG)
+
+9. It will take up to 5 minutes for the NSG rule to take affect. After being patient open an additional tab and go to http://publicIP
