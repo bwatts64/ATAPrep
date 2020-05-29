@@ -123,4 +123,4 @@ We will utilize the PowerShell DSC extension to deploy a simple website to our s
 
 8. Once the Instances show as healthy go to the **Overview** tab and take note of the Public IP
 
-9. Open an additional tab and go to **http://<publicIP>**
+9. Open an additional tab and go to http://publicIP
