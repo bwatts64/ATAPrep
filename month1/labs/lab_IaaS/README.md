@@ -115,7 +115,7 @@ We will utilize the PowerShell DSC extension to deploy a simple website to our s
 
 6. Click on the Virtual machine scale set you create previously and click on the "Extension" tab. Verify that the DSC extention has been deployed.
 
-![VM Extention](images/vm-extension.PNG)
+![VM Extention](images/ss-extension.PNG)
 
 7. Clcik on the **Intances** tab. Once the DSC script finished the health will go to healthy. If it doesn't show healthy wait 5 minutes and refresh the view.
 
